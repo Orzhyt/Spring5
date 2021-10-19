@@ -6,6 +6,7 @@
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/test" isTestSource="true" />
     </content>
+    <content url="file://$MODULE_DIR$/out" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module-library" scope="TEST">
@@ -18,5 +19,6 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="library" name="spring-context-5.3.0" level="project" />
   </component>
 </module>
