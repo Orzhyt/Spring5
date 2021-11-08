@@ -8,10 +8,11 @@ public class SystemInit {
         System.out.println("Hello World!");
         // spring方式获取对象
         ApplicationContext context = new ClassPathXmlApplicationContext("/spring/spring-context.xml");
-        User contextUser = context.getBean("User", User.class);
-        contextUser.SysOut();
+        User user1 = context.getBean("user", User.class);
+        user1.setAge(77);
+        user1.sysOut();
         // 工厂模式获取对象
-        User user = UserFactory.getUser();
-        user.SysOut();
+        User user2 = UserFactory.getUser();
+        user2.sysOut();
     }
 }
