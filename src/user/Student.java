@@ -1,6 +1,6 @@
 package user;
 
-public class User implements Human{
+public class Student implements Human {
     private String name;
     private Integer age;
 
@@ -24,6 +24,7 @@ public class User implements Human{
         this.age = age;
     }
 
+    @Override
     public void sysOut() {
         System.out.println("name:{" + name + "}; age:{" + age + "}");
     }
